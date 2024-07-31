@@ -208,7 +208,7 @@ const App = () => {
 
     return (
         <div className="container">
-            <h1>LibreTranslator</h1>
+            <h1>177 翻译</h1>
             <div className="language-selection">
                 <select value={sourceLang} onChange={(e) => setSourceLang(e.target.value)}>
                     {sourceLanguages.map(lang => (
@@ -269,8 +269,8 @@ const App = () => {
                 </div>
             )}
             <footer className="footer">
-                <a href="https://github.com/bestZwei/LibreTranslator" target="_blank" rel="noopener noreferrer">GitHub 仓库</a>
-                <span> | 基于DeepLx</span>
+                
+                <span> fanyi.177.im  | 基于DeepLx</span>
             </footer>
         </div>
     );
