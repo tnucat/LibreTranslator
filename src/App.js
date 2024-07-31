@@ -187,7 +187,7 @@ const App = () => {
     if (!isAuthenticated) {
         return (
             <div className="container">
-                <h1>LibreTranslator</h1>
+                <h1>177-Translator</h1>
                 <div className="password-container">
                     <input
                         type="password"
